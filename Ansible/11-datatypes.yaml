@@ -22,8 +22,8 @@
   - name: map
     ansible.builtin.debug:
      msg: "experience is {{EXPERIENCE}}"
-  - name: boolean
+  - name: check boolean
     ansible.builtin.debug:
-     msg: "trainer is avaialble {{TRAINER}}"
+     msg: "is he trainer: {{TRAINER}}"
 
     
