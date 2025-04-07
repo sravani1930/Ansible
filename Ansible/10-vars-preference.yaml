@@ -13,7 +13,7 @@
    #person: "Sravani from PLAY"
    #WISHES: "Morning From PlAY"
   tasks:
-  - name: check args
+  - name: check files
     #vars:
      #person: "Sravani from TASK"
      #WISHES: "Morning From TASK"
@@ -23,4 +23,4 @@
 #args(command line)
 #tasks
 #prompt
-#vars
+#PLAY
