@@ -14,8 +14,11 @@
    WISHES: "Morning From PlAY"
   tasks:
   - name: check args
-    vars:
-     person: "Sravani from TASK"
-     WISHES: "Morning From TASK"
+    #vars:
+     #person: "Sravani from TASK"
+     #WISHES: "Morning From TASK"
     ansible.builtin.debug:
      msg: "Hello {{person}}, Good {{WISHES}}"
+
+#args(command line)
+#tasks
