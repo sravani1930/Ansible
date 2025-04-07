@@ -13,17 +13,17 @@
      Docker: 3
    Trainer: true #boolena
   tasks:
-   - name: print key value pair
-     ansible.builtin.debug:
-     msg: "name: {{NAME}}"
-   - name: print list type
-     ansible.builtin.debug:
-     msg: "skills are {{SKILLS}}"
-   - name: map
-     ansible.builtin.debug:
-     msg: "experience is {{EXPERIENCE}}"
-   - name: boolean
-     ansible.builtin.debug:
-     msg: "trainer is avaialble {{TRAINER}}"
-     
+  - name: print key value pair
+    ansible.builtin.debug:
+    msg: "name: {{NAME}}"
+  - name: print list type
+    ansible.builtin.debug:
+    msg: "skills are {{SKILLS}}"
+  - name: map
+    ansible.builtin.debug:
+    msg: "experience is {{EXPERIENCE}}"
+  - name: boolean
+    ansible.builtin.debug:
+    msg: "trainer is avaialble {{TRAINER}}"
+
     
