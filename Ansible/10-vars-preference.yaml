@@ -9,9 +9,9 @@
   #- name: WISHES
     #prompt: please enter wishes
     #private: false
-  vars:
-   person: "Sravani from PLAY"
-   WISHES: "Morning From PlAY"
+  #vars:
+   #person: "Sravani from PLAY"
+   #WISHES: "Morning From PlAY"
   tasks:
   - name: check args
     #vars:
@@ -23,3 +23,4 @@
 #args(command line)
 #tasks
 #prompt
+#vars
