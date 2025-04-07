@@ -1,5 +1,5 @@
 - name: variable from play level
-  hosts: localhost
+  hosts: web
   vars:
    Course: "DevOps"
    Trainer: "youtube"
