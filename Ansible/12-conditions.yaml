@@ -11,6 +11,6 @@
      msg: "user output is: {{user}}"
 
   - name: print exit status
-    ansible.builtin.debug
-     msg: "status is: {{user.rc}}""
+    ansible.builtin.debug:
+     msg: "status is: {{user.rc}}"
     
