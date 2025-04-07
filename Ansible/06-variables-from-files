@@ -1,7 +1,7 @@
 - name: variables from play
   hosts: web
   vars_files: 
-  -  variables.yaml
+  - variables.yaml
   tasks:
   - name: variables from task level
     ansible.builtin.debug:
