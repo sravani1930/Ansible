@@ -2,13 +2,13 @@
   hosts: web
   vars_files:
    - variables.yaml
-  vars_prompt:
-  - name: person
-    prompt: please enter your name
-    private: false
-  - name: WISHES
-    prompt: please enter wishes
-    private: false
+  #vars_prompt:
+  #- name: person
+   # prompt: please enter your name
+   # private: false
+  #- name: WISHES
+    #prompt: please enter wishes
+    #private: false
   vars:
    person: "Sravani from PLAY"
    WISHES: "Morning From PlAY"
@@ -22,3 +22,4 @@
 
 #args(command line)
 #tasks
+#prompt
