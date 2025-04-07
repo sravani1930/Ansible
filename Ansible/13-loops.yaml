@@ -3,7 +3,7 @@
   tasks:
   - name: print persons
     ansible.builtin.debug:
-     msg: "Hello {{items}}" #item is a default key
+     msg: "Hello {{item}}" #item is a default key
     loop:
     - sravani
     - prudhvi
