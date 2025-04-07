@@ -5,8 +5,8 @@
    Trainer: "youtube"
    Duration: "2 hours"
   tasks:
-   - name:check variable
-     ansible.builtin.debug:
-      msg: "Hi, Iam taking {{course}}, trainig,My Trainer is {{Trainer}},Duration is {{Duration}}"
+  - name: check variable
+    ansible.builtin.debug:
+     msg: "Hi, Iam taking {{course}}, trainig,My Trainer is {{Trainer}},Duration is {{Duration}}"
 
      
