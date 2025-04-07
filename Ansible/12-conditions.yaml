@@ -1,0 +1,11 @@
+- name: conditions
+  hosts: web
+  tasks:
+  - name: check roboshop user
+    ansible.builtin.command: id roboshop
+    register: user #user is bariable name
+
+  - name: print variable value
+    ansible.builtin.debug:
+     msg: "user output is: {{user}}"
+    
